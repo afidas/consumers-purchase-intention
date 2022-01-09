@@ -53,5 +53,5 @@ Three is the best number for clustering consumers yielded by silhouette analysis
 3. [K-means](https://github.com/codebasics/py/blob/master/ML/13_kmeans/13_kmeans_tutorial.ipynb) 
 4. [PCA](https://github.com/codebasics/py/blob/master/ML/18_PCA/PCA_tutorial_digits.ipynb) 
 5. Output Analysis 
-    
-    [Pivot table](https://pandas.pydata.org/docs/reference/api/pandas.pivot_table.html)
+    - [Pivot table](https://pandas.pydata.org/docs/reference/api/pandas.pivot_table.html)
+    - [Radar chart](https://www.pythoncharts.com/matplotlib/radar-charts/)
