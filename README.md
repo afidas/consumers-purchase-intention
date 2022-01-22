@@ -14,17 +14,28 @@ Understanding consumer behavior is one of the most crucial components to increas
 
 ## 🎇Key Outcome
 
-Understanding how customers move down the funnel. It helps identify what to fix in the process to increase the number of transactions
+Understanding how customers move down the funnel to identify what to fix in the process to increase the number of transactions by answering several questions, such as: 
+  
+  1. Trend of Revenue by Month
+  2. Customers Engagement (Page View and Page Duration) by Month
+  3. Customers Engagement (Page View and Page Duration) by Visitor’s Type
+  4. Is Engagement Performance Related to the Operating System?
 
 ## 🧮Data Analysis
 
 The analysis started with an understanding of variables in the dataset through Exploratory Data Analysis. After that, consumers will be clustered based on similar behavior using k-means. All of the code related to analysis are available in the following link:
 
 1.[Exploratory Data Analysis](https://github.com/afidas/consumers-purchase-intention/blob/main/EDA_Purchase_Intention.ipynb)
+    
+   1. Descriptive analysis
+   2. Graph analysis
 
-2.[K-means](https://github.com/afidas/consumers-purchase-intention/blob/main/K-Means_Purchase%20Intention.ipynb)
+2.[PCA + K-means](https://github.com/afidas/consumers-purchase-intention/blob/main/K-Means_Purchase%20Intention.ipynb)
+    
+   1. Handling data imbalance
+   2. Handling data outliers
 
-## ✏️ K-Means Outcome
+## 📈 K-Means Outcome
 
 Three is the best number for clustering consumers yielded by silhouette analysis.
 
@@ -33,6 +44,23 @@ Three is the best number for clustering consumers yielded by silhouette analysis
     <img src="Assets/kmeans.png" alt="Project logo">
   </a>
 </p>
+
+## ✏️ Challenge
+Data has many outliers and noise
+
+## 🔑 Conclusion
+  
+  **Analysis Conclusion**
+    
+   1. Based on several variables used in clustering, three variables have the same value. Therefore, they're ineffective to be used as a basis of behavioral analysis. These variables are Informational, Informational Duration, and Page Values.
+   2. Exit Rates and Bounce Rates have a high (0.91) correlation value based on heatmap analysis. It also happens in clustering analysis, the higher the bounce rates, the higher the exit rates.
+   3. Page View and Page Duration in each cluster show a correlation because the more consumers access a page, the more time they spend.
+    
+   **Business Recomendation**
+   
+   Based on the analysis, the website's performance influences the amount of earned revenue. It can be improved by redesigning the user interface to create a better user experience.
+
+
 
 ## 🧩 Reference
 
