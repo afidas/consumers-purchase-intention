@@ -6,12 +6,6 @@ This is an analysis to predict customer purchase behavior based on an analysis i
 
 Understanding consumer behavior is one of the most crucial components to increase the growth of revenue. Based on data, consumers who finish the transaction are less than 20%. For this reason, understanding consumers' purchase intention will be a foundational information to understand users and source to develop a strategy to maximizing revenue.
 
-<p align="center">
-  <a href="" rel="noopener">
-    <img src="Assets/revenue.png" alt="Project logo">
-  </a>
-</p>
-
 ## 🎇Key Outcome
 
 Understanding how customers move down the funnel to identify what to fix in the process to increase the number of transactions by answering several questions, such as: 
